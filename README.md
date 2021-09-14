@@ -17,6 +17,8 @@ The Black-Scholes partial differential equation is solved using the finite eleme
     - **r:** Risk-free Interest Rate
     - **Steps:** Number of Simulation Timesteps (Increase the number of timesteps to increase simulation accuracy and stability)
 
+<br />
+
 - Two-Asset Mode
     - **K:** Option Strike Price (A range of underlying assets prices are automatically calculated based on the option’s strike price)
     - **B1:** Lower Knock-out Barrier Price (Optional)
@@ -30,6 +32,8 @@ The Black-Scholes partial differential equation is solved using the finite eleme
     - **r:** Risk-free Interest Rate
     - **Steps:** Number of Simulation Timesteps (Increase the number of timesteps to increase simulation accuracy and stability)
 
+<br />
+
 - Color Mode
     - **Normal:** Heat map based on the option prices on the simulated price surface
     - **Curvature:** Heat map based on the mean curvature of the simulated price surface
@@ -42,7 +46,7 @@ The Black-Scholes partial differential equation is solved using the finite eleme
 
 <br />
 
-### Supported Option Types:
+### Supported Option Types
 - Vanilla European Call/Put (One-Asset)
 - Down-and-out European Call/Put (One-Asset)
 - Up-and-out European Call/Put (One-Asset)
@@ -54,7 +58,7 @@ The Black-Scholes partial differential equation is solved using the finite eleme
 
 <br />
 
-### Supported Greeks for Interactive Visualization:
+### Supported Greeks for Interactive Visualization
 - One-Asset: Delta and Theta (Δ & Θ)
 - Two-Asset: Deltas with respect to the two underlying assets (Δ1 & Δ2)
 
