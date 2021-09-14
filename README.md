@@ -1,5 +1,76 @@
 # AR OptionSim
 
+AR OptionSim is an app that lets you simulate and visualize option prices and Greeks in augmented reality. The program implements the Black-Scholes model and supports both one-asset vanilla and two-asset basket European call/put, with and without barrier(s).
+
+The Black-Scholes partial differential equation is solved using the finite element method with implicit Euler time integration. The simulation algorithm also leverages GPU acceleration with Metal Shading Language. Please see details below for information on settings and supported option types.
+
+---
+
+### Settings
+- One-Asset Mode
+    - **K:** Option Strike Price (A range of underlying asset prices are automatically calculated based on the option’s strike price)
+    - **B1:** Lower Knock-out Barrier Price (Optional)
+    - **B2:** Upper Knock-out Barrier Price (Optional)
+    - **T:** Time to Expiration
+    - **σ:** Volatility
+    - **δ:** Dividend Yield
+    - **r:** Risk-free Interest Rate
+    - **Steps:** Number of Simulation Timesteps (Increase the number of timesteps to increase simulation accuracy and stability)
+
+- Two-Asset Mode
+    - **K:** Option Strike Price (A range of underlying assets prices are automatically calculated based on the option’s strike price)
+    - **B1:** Lower Knock-out Barrier Price (Optional)
+    - **B2:** Upper Knock-out Barrier Price (Optional)
+    - **T:** Time to Expiration
+    - **σ1:** Volatility of Underlying Asset 1
+    - **σ2:** Volatility of Underlying Asset 2
+    - **δ1:** Dividend Yield of Underlying Asset 1
+    - **δ2:** Dividend Yield of Underlying Asset 2
+    - **ρ:** Correlation Coefficient Between Underlying Asset 1 And Underlying Asset 2
+    - **r:** Risk-free Interest Rate
+    - **Steps:** Number of Simulation Timesteps (Increase the number of timesteps to increase simulation accuracy and stability)
+
+- Color Mode
+    - **Normal:** Heat map based on the option prices on the simulated price surface
+    - **Curvature:** Heat map based on the mean curvature of the simulated price surface
+
+<br />
+
+### Interaction
+- Drag on the plot with one finger to see prices and Greeks
+- Move, rotate, or scale the plot with two fingers
+
+<br />
+
+### Supported Option Types:
+- Vanilla European Call/Put (One-Asset)
+- Down-and-out European Call/Put (One-Asset)
+- Up-and-out European Call/Put (One-Asset)
+- Double-Barrier European Call/Put (One-Asset)
+- Basket European Call/Put (Two-Asset)
+- Down-and-out Basket European Call/Put (Two-Asset)
+- Up-and-out Basket European Call/Put (Two-Asset)
+- Double-Barrier Basket European Call/Put (Two-Asset)
+
+<br />
+
+### Supported Greeks for Interactive Visualization:
+- One-Asset: Delta and Theta (Δ & Θ)
+- Two-Asset: Deltas with respect to the two underlying assets (Δ1 & Δ2)
+
+<br />
+
+**This app features work from patent pending inventions.**
+
+**For more information and ad placements, please contact Jiecong Lu at aroptionsim@gmail.com.**
+
+---
+
+### Disclaimer
+This app is designed for informational and educational purposes only. It is not intended to be the basis of your trading decisions and should not be considered as a substitute for any financial service or investment advice. The simulation results presented in this app are hypothetical and may not represent the actual properties or performance of your investment. Please note that the information shown in this app may not be 100% accurate, correct, or complete; and we are not responsible for any direct or indirect loss or damage as consequences of any decisions or actions taken based on the information provided in this app.
+
+---
+
 ### Privacy Policy
 
 The AR OptionSim app is an Ad Supported app. This SERVICE is provided at no cost to you and is intended for your use as is.
