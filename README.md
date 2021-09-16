@@ -4,6 +4,10 @@ AR OptionSim is an app that lets you simulate and visualize option prices and Gr
 
 The Black-Scholes partial differential equation is solved using the finite element method with implicit Euler time integration. The simulation algorithm also leverages GPU acceleration with Metal Shading Language. Please see details below for information on settings and supported option types.
 
+[**App Download Link**](https://apps.apple.com/app/id1579196058?fbclid=IwAR2J-ffo_5wl3yuQnVLBLe_OnJ7-Capv0C_nuJAM7RGLd1nSkJKTu8rAB04)
+
+[**App Demo Video**](https://www.youtube.com/watch?v=nHFGQzNHW_s)
+
 ---
 
 ### Settings
@@ -66,7 +70,7 @@ The Black-Scholes partial differential equation is solved using the finite eleme
 
 **This app features work from patent pending inventions.**
 
-**For more information and ad placements, please contact Jiecong Lu at aroptionsim@gmail.com.**
+**For more information and ad placements, please contact Jiecong Lu at <aroptionsim@gmail.com>.**
 
 ---
 
@@ -135,7 +139,7 @@ We value your trust in providing us your Personal Information, thus we are striv
 
 ### Children’s Privacy
 
-The AR OptionSim app is not directed to children under the age of 13 and we do not knowingly collect personally identifiable information from children under 13 years of age. Should we learn that a child under 13 has provided us with their personally identifiable information, we will delete that information from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us at aroptionsim@gmail.com so that we can take any necessary actions.
+The AR OptionSim app is not directed to children under the age of 13 and we do not knowingly collect personally identifiable information from children under 13 years of age. Should we learn that a child under 13 has provided us with their personally identifiable information, we will delete that information from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us at <aroptionsim@gmail.com> so that we can take any necessary actions.
 
 ### Fair Information Practices 
 
@@ -171,7 +175,7 @@ This policy is effective as of 2021-09-10
 
 ### Contact Us
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at aroptionsim@gmail.com.
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <aroptionsim@gmail.com>.
 
 ---
 
@@ -201,4 +205,4 @@ These terms and conditions are effective as of 2021-09-10
 
 ### Contact Us
 
-If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at aroptionsim@gmail.com.
+If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at <aroptionsim@gmail.com>.
